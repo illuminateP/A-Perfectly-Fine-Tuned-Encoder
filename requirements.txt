@@ -1,0 +1,14 @@
+# Environment of the head-training run (Python 3.10). Install torch separately for your accelerator —
+# the run used 2.10.0.dev20250926+rocm6.3 on an RX 9070 XT; Kaggle submissions use the T4 image as is.
+# 헤드 학습 런의 환경 (Python 3.10). torch 는 가속기에 맞는 빌드를 따로 설치한다.
+transformers==4.57.6
+tokenizers==0.22.2
+sentencepiece==0.2.2
+safetensors==0.7.0
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+joblib==1.5.3
+tqdm==4.67.1

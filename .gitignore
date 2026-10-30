@@ -1,0 +1,20 @@
+# 대회 데이터 
+/hidden/
+
+# 번들
+bundle/*.zip
+bundle/outputs/
+bundle/models/*/checkpoint-*/*
+!bundle/models/ARITH/checkpoint-ab224/meta.json
+bundle/models/*/*.json
+bundle/models/*/spm.model
+bundle/models/ARITH/emb_model/
+
+# 실행 산출물
+/outputs/
+/submission.csv
+*.npz
+__pycache__/
+.ipynb_checkpoints/
+labs/*/results/
+labs/*/logs/
